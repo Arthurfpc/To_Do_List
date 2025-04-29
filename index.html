@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List</title>
+</head>
+<body>
+    <header>
+    <h1>Lista de Tarefas</h1>
+    </header>
+
+    <main>
+<div class="section">
+     <p>Bem-vindo ao nosso To-Do List!
+        Nosso objetivo é ajudar você a organizar suas tarefas de forma simples, rápida e eficiente. Sabemos como a vida pode ser corrida e cheia de compromissos,
+        e foi por isso que criamos essa ferramenta: para facilitar o seu dia a dia e aumentar sua produtividade. </p>
+</div>
+
+<div class="section">
+    <h2>Digite Sua Tarefa</h2>
+    <input type="text" id="tarefa" placeholder="Digite Aqui">
+</div>
+
+<div class="botoes">
+    <button onclick="adicionartarefa()">Adicionar Tarefa</button>
+    <button onclick="mostrarlista()">Mostrar Lista</button>
+</div>
+
+<div id="lista-tarefas" style="display:none;"></div> 
+
+</main>
+
+<footer></footer>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
